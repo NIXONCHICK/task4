@@ -1,0 +1,53 @@
+# Общие исключения для Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Исключения для IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+build/
+
+# Исключения для Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Исключения для Gradle
+.gradle/
+build/
+.gradle/
+!gradle-wrapper.jar
+.gradle/cache/
+.gradle/cache/*
+.gradle/daemon/
+.gradle/daemon/*
+.gradle/init-scripts/
+.gradle/init-scripts/*
+.gradle/task-cache/
+.gradle/task-cache/*
+.gradle-test-kit/
+.gradle-test-kit/*
+
+# Исключения для логов
+*.log
+*.log.*
+
+# Исключения для системы
+.DS_Store
+Thumbs.db
+*.swp
+*.lock
+*.bak
+*.tmp
+*.pid
+*.seed
+
+# Исключения для IDE конфигурации
+.vscode/
